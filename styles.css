@@ -1,7 +1,9 @@
 body {
   min-height: 100vh;
+  font-family: "Inter", serif;
   background-color: rgb(250, 249, 246);
   scroll-behavior: smooth;
+  margin: 0px;
 }
 
 nav {
@@ -245,6 +247,12 @@ nav {
   margin-bottom: 1rem;
 }
 
+.project-card img {
+  width: 100%;
+  border-radius: 0.5rem;
+
+}
+
 .project-card p {
   color: rgb(75, 85, 99);
   margin-bottom: 1rem;
@@ -350,7 +358,7 @@ nav {
 
 .form-group input,
 .form-group textarea {
-  width: 100%;
+  width: 95%;
   padding: 0.5rem 1rem;
   border: 1px solid #e5e7eb;
   border-radius: 0.5rem;
