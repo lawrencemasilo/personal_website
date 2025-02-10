@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neo Masilo - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="nav-content">
+                <div class="nav-brand">
+                    <span>Portfolio</span>
+                </div>
+                
+                <div class="nav-links">
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#contact">Contact</a>
+                </div>
+
+                <div class="mobile-menu-button">
+                    <button id="mobileMenuToggle">
+                        <i data-feather="menu"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="mobileMenu">
+            <div>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div id="hero-content-container">
+                    <h1>
+                        Building innovative solutions for a connected world
+                    </h1>
+                    <p>
+                        Tech Enthusiast
+                    </p>
+                    <a href="#contact" class="hero-btn">
+                        Get in Touch
+                    </a>
+                </div>
+                <div class="hero-image-container">
+                    <img 
+                        src="assets/images/Neo.jpg" 
+                        alt="Profile Picture" 
+                    />
+                    <p class="profile-name">Neo Masilo</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        As an ALX Software Engineering graduate, and Google Hackathon participant, I am passionate about creating innovative solutions that bridge technological gaps. My experience spans software development, and IT support, with a strong focus on driving tech-enabled social impact.  
+                    </p>
+                    <p>
+                        When I'm not coding, you'll find me gaming.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="projects-container-content">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <h3>Zesty</h3>
+                    <img src="assets/images/project1.png" alt="Zesty screenshot">
+                    <p>Buy-Now-Pay-Later Fintech app for SMES</p>
+                    <a href="https://thankful-smoke-06ca0c70f-preview.eastus2.4.azurestaticapps.net/" target="_blank">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Farm Link</h3>
+                    <img src="assets/images/project2.png" alt="Farm Link screenshot">
+                    <p>Connecting local farmers with urban markets</p>
+                    <a href="https://github.com/lawrencemasilo/Farm-Link" target="_blank">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>QuickChat</h3>
+                    <img src="assets/images/project3.png" alt="Zesty screenshot">
+                    <p>A simple lightweight chat web application</p>
+                    <a href="https://github.com/lawrencemasilo/QuickChat" target="_blank">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="skills-container-content">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>React</li>
+                        <li>JavaScript</li>
+                        <li>Tailwind CSS</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-container-content">
+            <h2>Contact Me</h2>
+            <div class="contact-grid">
+                <form 
+                    class="contact-form" 
+                    action="https://formspree.io/f/xnnjzezo"
+                    method="POST"
+                >
+                    <div class="form-group">
+                        <label class=>Name</label>
+                        <input type="text" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea rows="4" name="message"></textarea>
+                    </div>
+                    <button class="submit-button" type="submit">
+                        Send Message
+                    </button>
+                </form>
+                
+                <div class="connect-card">
+                    <h3>Connect Online</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/lawrencemasilo" target="_blank">
+                            <i data-feather="github" class="icons"></i> GitHub
+                        </a>
+                        <a href="https://www.linkedin.com/in/neomasilo/" target="_blank">
+                            <i data-feather="linkedin" class="icons"></i> LinkedIn
+                        </a>
+                        <a href="mailto:neolawrencemasilo@gmail.com" type="email">
+                            <i data-feather="mail" class="icons"></i> Email
+                        </a>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2025 Portfolio. All rights reserved.</p>
+            <p>"I am my own source of strength"</p>
+        </div>
+    </footer>
+
+</body>
+</html>
